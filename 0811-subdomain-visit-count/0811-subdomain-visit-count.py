@@ -8,9 +8,6 @@ class Solution:
             num, dom = cpdom.split()
             num, dom = int(num), dom.split('.')
             
-            print(num)
-            print(dom)
-            
             for i in reversed(range(len(dom))):
                 count['.'.join(dom[i:])] += num
                 print(count)
