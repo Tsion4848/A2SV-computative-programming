@@ -25,17 +25,3 @@ class Solution:
                 return False
             right += 1
         return True
-            
-        # if (flag == 1):
-        #     return True
-        # else:
-        #     return False
-        
-        
-        
-        
-        # for left in range(length - 1):
-        #     right = left + 1:
-        #         if arr[left] > arr[right]:
-        #             return 
-                
